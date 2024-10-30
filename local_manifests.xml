@@ -4,10 +4,10 @@
     <project name="TheMuppets/proprietary_vendor_xiaomi" path="vendor/xiaomi" remote="github" revision="main"/>
 
     <!-- Репозиторий с ядром для Mi 11 Lite 5G -->
-    <project name="LineageOS/android_kernel_xiaomi_sm7250" path="kernel/xiaomi/sm7250" remote="github" revision="lineage-18.1"/>
+    <project name="LineageOS/android_kernel_xiaomi_sm7250" path="kernel/xiaomi/sm7250" remote="github" revision="lineage-19.1"/>
 
     <!-- Репозиторий с настройками устройства -->
-    <project name="LineageOS/android_device_xiaomi_renoir" path="device/xiaomi/renoir" remote="github" revision="lineage-18.1"/>
+    <project name="LineageOS/android_device_xiaomi_renoir" path="device/xiaomi/renoir" remote="github" revision="lineage-19.1"/>
 
     <!-- Дополнительные компоненты или скрипты, если требуются -->
     <!-- Добавьте другие project теги, если нужны дополнительные репозитории -->
