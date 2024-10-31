@@ -13,7 +13,7 @@
     <project path="hardware/xiaomi" name="android_hardware_xiaomi" remote="failedmush" />
    
     <!-- Kernel -->
-    <project path="kernel/xiaomi/sm7250" name="LineageOS/android_kernel_xiaomi_sm8350" revision="lineage-21.0" />
+ <project path="kernel/xiaomi/sm8350" name="android_kernel_xiaomi_sm8350" remote="failedmush" />
 
     <!-- Vendor -->
     <project path="vendor/xiaomi/renoir" name="android_vendor_xiaomi_renoir" remote="failedmush" />
