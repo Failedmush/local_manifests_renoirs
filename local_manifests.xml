@@ -1,8 +1,9 @@
 <manifest>
 
 
-     <!-- Remotes -->
-    <lineage 21.0=fetch="https://github.com" revision="lineage-21.0" />
+
+    <!-- Remotes -->
+    <lineage 21.0="loslos" fetch="https://github.com" revision="lineage-21.0" />
     
     <!-- Hardware -->
     <project path="hardware/xiaomi" name="android_hardware_xiaomi" remote="failedmush" />
