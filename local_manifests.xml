@@ -5,10 +5,6 @@
     <remote name="failedmush" fetch="https://github.com/Failedmush" revision="lineage-21" />
     <remote name="failedmush-gitlab" fetch="https://gitlab.com/Failedmush" revision="lineage-21" />
     
-    <!-- Remove -->
-    <remove-project name="crdroidandroid/android_frameworks_base" />
-    <remove-project name="crdroidandroid/android_vendor_crdroid" />
-    
     <!-- Hardware -->
     <project path="hardware/xiaomi" name="android_hardware_xiaomi" remote="failedmush" />
    
