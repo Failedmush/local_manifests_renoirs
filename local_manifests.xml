@@ -2,8 +2,8 @@
 <manifest>
 
     <!-- Remotes -->
-    <remote name="failedmush" fetch="https://github.com/Maitani-Sakura" revision="lineage-21" />
-    <remote name="failedmush-gitlab" fetch="https://gitlab.com/Maitani-Sakura" revision="lineage-21" />
+    <remote name="failedmush" fetch="https://github.com/Failedmush" revision="lineage-21" />
+    <remote name="failedmush-gitlab" fetch="https://gitlab.com/Failedmush" revision="lineage-21" />
     
     <!-- Remove -->
     <remove-project name="crdroidandroid/android_frameworks_base" />
