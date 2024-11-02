@@ -1,24 +1,21 @@
 <manifest>
 
-
-
-    <!-- Remotes -->
-    <lineage 21.0="loslos" fetch="https://github.com" revision="lineage-21.0" />
-    
-    <!-- Hardware -->
-    <project path="hardware/xiaomi" name="android_hardware_xiaomi" remote="failedmush" />
-   
-    <!-- Kernel -->
- <project path="kernel/xiaomi/sm8350" name="android_kernel_xiaomi_sm8350" remote="failedmush" />
-
-    <!-- Vendor -->
-    <project path="vendor/xiaomi/renoir" name="android_vendor_xiaomi_renoir" remote="failedmush" />
-    <project path="vendor/xiaomi/sm8350-common" name="android_vendor_xiaomi_sm8350-common" remote="failedmush" />
-
-   
-   <!-- Addition -->
-    <project path="vendor/xiaomi/camera" name="android_vendor_xiaomi_camera" remote="failedmush" />
-    <project path="frameworks/base" name="android_frameworks_base" remote="faildmush" />
-    <project path="vendor/lineage" name="android_vendor_crdroid" remote="failedmush" />
-    <project path="vendor/gms" name="vendor_gms" remote="failedmush-gitlab" />
+    <?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <remote name="device" fetch="https://github.com/failedmush" revision="lineage-21" />
+  <!-- Device Tree -->
+  <project path="device/xiaomi/renoir" name="android_device_xiaomi_renoir" remote="device" />
+  <!-- Device Commpn Tree -->
+  <project path="device/xiaomi/sm8350-common" name="android_device_xiaomi_sm8350-common" remote="device" />
+  <!-- Kernel -->
+  <project path="kernel/xiaomi/sm8350" name="android_kernel_xiaomi_sm8350" remote="device" />
+  <!-- Vendor -->
+  <project path="vendor/xiaomi/sm8350-common" name="android_vendor_xiaomi_sm8350-common" remote="device" />
+  <project path="vendor/xiaomi/renoir" name="android_vendor_xiaomi_renoir" remote="device" />
+  <!-- Hardware -->
+  <project path="hardware/xiaomi" name="crdroidandroid/android_hardware_xiaomi" remote="crdroid" />
+  <!-- Additional -->
+  <project path="vendor/bcr" name="vendor_bcr_renoir" remote="device" />
+  <project path="vendor/xiaomi/camera" name="android_vendor_xiaomi_camera" remote="device" />
+  <project path="packages/apps/ViPER4AndroidFX" name="android_packages_apps_ViPER4AndroidFX" remote="device" />
 </manifest>
