@@ -12,7 +12,8 @@
   <!-- Vendor -->
   <project path="vendor/xiaomi/sm8350-common" name="android_vendor_xiaomi_sm8350-common" remote="Failedmush" />
   <project path="vendor/xiaomi/renoir" name="android_vendor_xiaomi_renoir" remote="Failedmush" />
+    <!-- Hardware -->
+    <project path="xiaomi-sm6150-phoenix" name="android_hardware_xiaomi"  revision="lineage-21" />
   <!-- Additional -->
   <project path="vendor/xiaomi/camera" name="android_vendor_xiaomi_camera" remote="Failedmush" />
-  <project path="packages/apps/ViPER4AndroidFX" name="android_packages_apps_ViPER4AndroidFX" remote="Failedmush" />
 </manifest>
