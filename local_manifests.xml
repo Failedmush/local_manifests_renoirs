@@ -2,7 +2,7 @@
 
 <manifest>
   <!-- Remotes -->
-    <remote name="renoir" fetch="https://github.com/failedmush" revision="lineage-21" />
+    <remote name="renoir" fetch="https://github.com/Failedmush" revision="lineage-21" />
   <!-- Device Tree -->
   <project path="device/xiaomi/renoir" name="android_device_xiaomi_renoir" remote="Failedmush" />
   <!-- Device Commpn Tree -->
