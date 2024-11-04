@@ -13,7 +13,7 @@
   <project path="vendor/xiaomi/sm8350-common" name="android_vendor_xiaomi_sm8350-common" remote="Failedmush" />
   <project path="vendor/xiaomi/renoir" name="android_vendor_xiaomi_renoir" remote="Failedmush" />
     <!-- Hardware -->
-    <project path="xiaomi-sm6150-phoenix" name="android_hardware_xiaomi"  revision="lineage-21" />
+    <project path="xiaomi-sm8350-renoir" name="android_hardware_xiaomi"  revision="lineage-21" />
   <!-- Additional -->
   <project path="vendor/xiaomi/camera" name="android_vendor_xiaomi_camera" remote="Failedmush" />
 </manifest>
