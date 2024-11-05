@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
-
 <manifest>
-  <!-- Remotes -->
-    <remote name="renoir" fetch="https://github.com/Failedmush" revision="lineage-21" />
-  <!-- Device Tree -->
-  <project path="device/xiaomi/renoir" name="android_device_xiaomi_renoir" remote="Failedmush" />
-  <!-- Device Commpn Tree -->
-  <project path="device/xiaomi/sm8350-common" name="android_device_xiaomi_sm8350-common" remote="Failedmush" />
-  <!-- Kernel -->
-  <project path="kernel/xiaomi/sm8350" name="android_kernel_xiaomi_sm8350" remote="Failedmush" />
-  <!-- Vendor -->
-  <project path="vendor/xiaomi/sm8350-common" name="android_vendor_xiaomi_sm8350-common" remote="Failedmush" />
-  <project path="vendor/xiaomi/renoir" name="android_vendor_xiaomi_renoir" remote="Failedmush" />
-  <!-- Additional -->
-  <project path="vendor/xiaomi/camera" name="android_vendor_xiaomi_camera" remote="Failedmush" />
+
+        <!-- Remote -->
+        <remote name="LineageOS" fetch="https://github.com/LineageOS/android_device_xiaomi_renoir.git" />
+    
+        <!-- Trees -->
+        <project path="device/xiaomi/renoir" name="android_device_xiaomi_renoir" remote="device" />
+        <project path="device/xiaomi/sm8350-common" name="android_device_xiaomi_sm8350-common" remote="device" />
+        <project path="vendor/xiaomi/sm8350-common" name="android_vendor_xiaomi_sm8350-common" remote="device" />
+        <project path="vendor/xiaomi/renoir" name="android_vendor_xiaomi_renoir" remote="device" />
+        <project path="kernel/xiaomi/sm8350" name="android_kernel_xiaomi_sm8350" remote="device" />>
+        <project path="hardware/xiaomi" name="android_hardware_xiaomi" remote="LineageOS" revision="lineage-21" clone-depth="1" />
+        <!-- Additional -->
+  <project path="vendor/xiaomi/camera" name="android_vendor_xiaomi_camera" remote="device" />
+  <project path="vendor/xiaomi/felica" name="android_vendor_felica " remote="device" />
 </manifest>
