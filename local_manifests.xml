@@ -2,7 +2,7 @@
 <manifest>
 
         <!-- Remote -->
-        <remote name="LineageOS" fetch="https://github.com/LineageOS/android_device_xiaomi_renoir.git" />
+        <remote name="LineageOS" fetch="https://github.com/LineageOS/android_device_xiaomi_renoir" />
     
         <!-- Trees -->
         <project path="device/xiaomi/renoir" name="android_device_xiaomi_renoir" remote="device" />
