@@ -2,9 +2,9 @@
 <manifest>
 
 
-<remote name="Failedmush"  branch="https://github.com/Failedmush/android_device_xiaomi_renoir_twrp.git/" />
+<remote name="Failedmush"  fetch="https://github.com/Failedmush/android_device_xiaomi_renoir_twrp.git/" />
 
-<remove-project name="Twrp 12.1/android_device_xiaomi_renoir" />
+<remove-project name="Twrp 12.1/android_device_xiaomi_renoir_twrp" />
 
 <project path="hardware/xiaomi/renoir" name="platform/hardware/xiaomi/renoir" remote="Failedmush" revision="jb-dev"/>
 
