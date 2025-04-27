@@ -2,12 +2,30 @@
 <manifest>
 
 
-<remote name="Failedmush"  fetch="https://github.com/Failedmush/android_device_xiaomi_renoir_twrp.git/" />
+    <!-- Remotes -->
+    <remote name="Sakura" fetch="https://github.com/Maitani-Sakura" revision="lineage-22.1" />
+    <remote name="Sakura-gitlab" fetch="https://gitlab.com/Maitani-Sakura" revision="lineage-22.1" />
 
-<remove-project name="Twrp 12.1/android_device_xiaomi_renoir_twrp" />
+    <!-- Removals -->
+ 
 
-<project path="hardware/xiaomi/renoir" name="platform/hardware/xiaomi/renoir" remote="Failedmush" revision="jb-dev"/>
+    <!-- Repos -->
+    <!-- Device -->
+  <project path="device/xiaomi/renoir" name="android_device_xiaomi_renoir" remote="Sakura" />
+  <project path="device/xiaomi/sm8350-common" name="android_device_xiaomi_sm8350-common" remote="Sakura" />
 
-  <"git remote add Failedmush https://github.com/Failedmush/android_device_xiaomi_renoir_twrp.git"/>
+    <!-- Device - Common -->
+
+    <!-- Kernel -->
+    <project path="kernel/xiaomi/sm8350" name="android_kernel_xiaomi_sm8350" remote="Sakura" />
+
+    <!-- Vendor -->
+ <project path="vendor/xiaomi/renoir" name="android_vendor_xiaomi_renoir" remote="Sakura" />
+    <project path="vendor/xiaomi/sm8350-common" name="android_vendor_xiaomi_sm8350-common" remote="Sakura" />
+
+    <!-- Vendor - Common -->
+
+    <!-- Hardware -->
+   <project path="hardware/xiaomi" name="android_hardware_xiaomi" remote="Sakura" />
 
 </manifest>
