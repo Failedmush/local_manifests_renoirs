@@ -17,7 +17,7 @@
     <!-- Device - Common -->
 
     <!-- Framework -->
-    <project path="Los-Ext" name="android_frameworks_base" remote="15" />    
+    <project path="Los-Ext" name="android_frameworks_base" remote=""Los-Ex" />    
     <!-- Framework - Common --->
     
     <!-- Kernel -->
