@@ -5,7 +5,6 @@
     <!-- Remotes -->
     <remote name="Sakura" fetch="https://github.com/Maitani-Sakura" revision="lineage-22.1" />
     <remote name="Sakura-gitlab" fetch="https://gitlab.com/Maitani-Sakura" revision="lineage-22.1" />
-     <remote  name="android_frameworks_base" fetch="ssh://git@github.com" />
     <!-- Device - Common -->
 
     <!-- Removals -->
