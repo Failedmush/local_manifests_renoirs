@@ -12,7 +12,8 @@
     <!-- Device -->
   <project path="device/xiaomi/renoir" name="android_device_xiaomi_renoir" remote="Sakura" />
   <project path="device/xiaomi/sm8350-common" name="android_device_xiaomi_sm8350-common" remote="Sakura" />
-
+ <remote  name="private"
+           fetch="ssh://git@github.com" />
     <!-- Device - Common -->
 
     
