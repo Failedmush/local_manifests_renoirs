@@ -26,8 +26,8 @@
     <!-- Vendor - Common -->
 
         
-
-<project path="frameworks/base" name="LineageOS/android_frameworks_base" remote="LineageOS" />
+ <!-- FRAMEWORK -->
+<project path="LineageOS" name="android_frameworks_base" remote="LineageOS" />
 
     <!-- Hardware -->
    <project path="hardware/xiaomi" name="android_hardware_xiaomi" remote="Sakura" />
