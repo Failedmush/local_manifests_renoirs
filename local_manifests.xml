@@ -16,6 +16,7 @@
     <!-- Device -->
   <project path="device/xiaomi/renoir" name="android_device_xiaomi_renoir" remote="Sakura" />
   <project path="device/xiaomi/sm8350-common" name="android_device_xiaomi_sm8350-common" remote="Sakura" />
+     <project path="frameworks/base" name="LineageOS/android_frameworks_base" groups="pdk-cw-fs,pdk-fs,sysui-studio" />
     <!-- Device - Common -->
 
     
