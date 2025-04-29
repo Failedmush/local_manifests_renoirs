@@ -6,7 +6,6 @@
     <remote name="Sakura-gitlab" fetch="https://gitlab.com/Maitani-Sakura" revision="lineage-22.1" />
 </manifest>
 
-   <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
     <!-- Device -->
     <project path="device/xiaomi/renoir" name="android_device_xiaomi_renoir" remote="Sakura" />
