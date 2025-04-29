@@ -1,20 +1,29 @@
-<?xml version="1.0" encoding="UTF-8"?>
 <manifest>
 
-    <!-- Remotes -->
+   <!-- Remotes -->
     <remote name="Sakura" fetch="https://github.com/Maitani-Sakura" revision="lineage-22.1" />
-<remote name="Sakura-gitlab" fetch="https://gitlab.com/Maitani-Sakura" revision="lineage-22.1" />    
-    <remote name="RisingOS-Revived" fetch="https://github.com/RisingOS-Revived" revision="fifteen" />
+    <remote name="Sakura-gitlab" fetch="https://gitlab.com/Maitani-Sakura" revision="lineage-22.1" />
 
+    <!-- Removals -->
+ 
+
+    <!-- Repos -->
     <!-- Device -->
-    <project path="device/xiaomi/renoir" name="android_device_xiaomi_renoir" remote="Sakura" />
-    <project path="device/xiaomi/sm8350-common" name="android_device_xiaomi_sm8350-common" remote="Sakura" />
-        
-     <!-- Hardware -->
-    <project path="hardware/xiaomi" name="android_hardware_xiaomi" remote="Sakura" />
+  <project path="device/xiaomi/renoir" name="android_device_xiaomi_renoir" remote="Sakura" />
+  <project path="device/xiaomi/sm8350-common" name="android_device_xiaomi_sm8350-common" remote="Sakura" />
+
+    <!-- Device - Common -->
+
     <!-- Kernel -->
     <project path="kernel/xiaomi/sm8350" name="android_kernel_xiaomi_sm8350" remote="Sakura" />
+
     <!-- Vendor -->
-    <project path="vendor/xiaomi/renoir" name="android_vendor_xiaomi_renoir" remote="Sakura" />
+ <project path="vendor/xiaomi/renoir" name="android_vendor_xiaomi_renoir" remote="Sakura" />
     <project path="vendor/xiaomi/sm8350-common" name="android_vendor_xiaomi_sm8350-common" remote="Sakura" />
+
+    <!-- Vendor - Common -->
+
+    <!-- Hardware -->
+   <project path="hardware/xiaomi" name="android_hardware_xiaomi" remote="Sakura" />
+
 </manifest>
