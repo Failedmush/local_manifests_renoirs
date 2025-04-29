@@ -3,7 +3,8 @@
 
 
     <!-- Remotes -->
-    <remote name="Failedmush" fetch="https://github.com/Failedmush" revision="lineage-22.1" />
+    <remote name="Failedmush" fetch="https://github.com/Failedmush" revision="lineage-22.1" />
+
    <!-- Device - Common -->
 
     <!-- Removals -->
@@ -20,7 +21,7 @@
     <project path="kernel/xiaomi/sm8350" name="android_kernel_xiaomi_sm8350" remote="Failedmush" />
 
     <!-- Vendor -->
- <project path="vendor/xiaomi/renoir" name="android_vendor_xiaomi_renoir" remote="Failedmush" />
+ <project path="vendor/xiaomi/renoir" name="-android_vendor_xiaomi_renoir" remote="Failedmush" />
     <project path="vendor/xiaomi/sm8350-common" name="android_vendor_xiaomi_sm8350-common" remote="Failedmush" />
 
     <!-- Vendor - Common -->
