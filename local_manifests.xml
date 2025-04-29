@@ -9,9 +9,6 @@
     <!-- Device -->
     <project path="device/xiaomi/renoir" name="android_device_xiaomi_renoir" remote="Sakura" />
     <project path="device/xiaomi/sm8350-common" name="android_device_xiaomi_sm8350-common" remote="Sakura" />
-
- <!-- FRAMEWORK -->
-<project path="frameworks/base" name="LineageOS/android_frameworks_base" remote="LineageOS" />
         
      <!-- Hardware -->
     <project path="hardware/xiaomi" name="android_hardware_xiaomi" remote="Sakura" />
