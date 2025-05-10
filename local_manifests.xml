@@ -26,6 +26,5 @@
     <!-- Hardware -->
    <project path="hardware/xiaomi" name="android_hardware_xiaomi" remote="Sakura" />
 
-EXPORT_TARGET_INCLUDE_GAPPS=false
 
 </manifest>
